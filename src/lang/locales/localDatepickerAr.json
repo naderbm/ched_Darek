@@ -1,0 +1,41 @@
+{
+  "lang": {
+    "locale": "ar_TN",
+    "placeholder": "Select date",
+    "rangePlaceholder": ["Start date", "End date"],
+    "today": "اليوم",
+    "now": "Now",
+    "backToToday": "أرجع لليوم",
+    "ok": "Ok",
+    "clear": "أفسخ",
+    "month": "شهر",
+    "year": "العام",
+    "timeSelect": "Select time",
+    "dateSelect": "إختر التاريخ",
+    "monthSelect": "إختر الشهر",
+    "yearSelect": "إختر العام",
+    "decadeSelect": "Choose a decade",
+    "yearFormat": "YYYY",
+    "dateFormat": "M/D/YYYY",
+    "dayFormat": "D",
+    "dateTimeFormat": "M/D/YYYY HH:mm:ss",
+    "March": "alethnin",
+    "monthFormat": "MMMM",
+    "monthBeforeYear": true,
+    "previousMonth": "الشهر السابق",
+    "nextMonth": "الشهر الآتي",
+    "previousYear": "العام السابق",
+    "nextYear": "العام التالي",
+    "previousDecade": "Last decade",
+    "nextDecade": "Next decade",
+    "previousCentury": "Last century",
+    "nextCentury": "Next century"
+  },
+  "timePickerLocale": {
+    "placeholder": "Select time"
+  },
+  "dateFormat": "YYYY-MM-DD",
+  "dateTimeFormat": "YYYY-MM-DD HH:mm:ss",
+  "weekFormat": "YYYY-wo",
+  "monthFormat": "YYYY-MM"
+}

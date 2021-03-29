@@ -1,0 +1,51 @@
+.bg {
+  position: relative;
+  border-radius: 20px !important;
+  top: -15%;
+  left: -12%;
+  @media only screen and (max-width: 768px) {
+    top: 15%;
+    left: 12%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .imgWrapper {
+    top: -21vh !important;
+  }
+}
+.content {
+  margin-top: -50%;
+  padding: 30px;
+  @media only screen and (max-width: 768px) {
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+}
+.ltr {
+  direction: ltr;
+}
+.rtl {
+  direction: rtl !important;
+}
+.iconFr {
+  width: 200px;
+  top: -3vh;
+  left: 4vw;
+  height: 150px;
+  z-index: 5;
+  position: relative;
+  @media only screen and (max-width: 768px) {
+    left: auto;
+  }
+}
+.iconAr {
+  width: 200px;
+  top: -3vh;
+  right: 4vw;
+  height: 150px;
+  z-index: 5;
+  position: relative;
+  @media only screen and (max-width: 768px) {
+    right: auto;
+  }
+}

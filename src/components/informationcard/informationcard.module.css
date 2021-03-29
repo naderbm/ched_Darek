@@ -1,0 +1,58 @@
+.wrapper {
+  width: 20vw;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  margin: 0 24px 24px 24px;
+  padding: 5px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #282828;
+}
+.number {
+  padding-top: 5%;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #015eff;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 20vw;
+    height: 120px;
+    margin: 1px;
+    padding: 20px 5px;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #282828;
+  }
+  .number {
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #015eff;
+  }
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  padding-left: 13.2vw;
+  padding-right: 13.2vw;
+  padding-top: 5vw;
+  background-color: white;
+  margin-top: 5vh;
+  box-shadow: -3px 3px 5px 43px rgba(251, 251, 251, 1);
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2.5vw;
+  }
+}
+
+.icon {
+  font-size: 16px;
+  padding-top: 16px;
+}
+.link {
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 300;
+  text-align: left;
+  color: #282828;
+}
+.label {
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+  color: #282828;
+  @media only screen and (max-width: 768px) {
+    font-size: 50px !important;
+  }
+}
+.title {
+  font-size: 32.5px;
+  font-weight: 600;
+  text-align: center;
+  color: #015eff;
+}
+.err {
+  color: red;
+  text-align: center;
+}

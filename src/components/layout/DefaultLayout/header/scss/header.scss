@@ -1,0 +1,91 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2%;
+  img {
+    width: 6%;
+    height: 7%;
+    margin-left: 72px;
+    cursor: pointer;
+  }
+
+  .dropdown_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 12%;
+    margin-top: 18px;
+    .help_icon {
+      color: #015eff;
+      padding-top: 4px;
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      .langDropdaown {
+        button {
+          border: 1px solid #1890ff;
+          border-radius: 8px;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  .buttons_wrapper {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13px;
+    .button_se_connecter {
+      margin: 0 5px 0 0;
+      height: 34px;
+      width: 144px !important;
+      padding: 0.2rem;
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      border-radius: 0.5rem !important;
+    }
+    .button_sinscrire {
+      font-size: 18px;
+      font-weight: 500;
+      height: 35px;
+      padding: 0.2rem;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #015eff;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.header_mobile {
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+  .logo_wrapper {
+    width: 6vh;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .header_buttons {
+    display: flex;
+
+    .button_login {
+      display: inline-block;
+      font-size: 12px;
+      width: 125px !important;
+      height: 31px;
+      margin-top: 12px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 10vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-top: 7vh;
+  // background-color: #fbfbfb;
+  @media only screen and (max-width: 768px) {
+    max-width: 100%vw;
+    overflow: hidden;
+    overflow-x: hidden; //horizontal
+    padding: 5vw;
+  }
+}

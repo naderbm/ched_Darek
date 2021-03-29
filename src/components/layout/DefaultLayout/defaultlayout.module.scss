@@ -1,0 +1,16 @@
+.modal {
+  border-radius: 10px !important;
+}
+.imgwereact {
+  width: 10vw;
+  @media only screen and (max-width: 768px) {
+    width: 35vw;
+  }
+}
+.footerwereact {
+  text-align: center;
+  font-size: 18px;
+  @media only screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+}

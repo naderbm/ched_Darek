@@ -1,0 +1,45 @@
+.btns {
+  position: absolute;
+  right: 4.5vw;
+  bottom: 20px;
+  @media only screen and (max-width: 1024px) {
+    right: 5.5vw;
+  }
+  @media only screen and (max-width: 375px) {
+    right: 0;
+    left: 10vw;
+  }
+}
+.wrapper {
+  min-height: 20vh;
+}
+.annuler {
+  position: relative;
+  right: 100px !important;
+  top: 6.4vh !important;
+  @media only screen and (max-width: 375px) {
+    right: 0 !important;
+    top: 2.5vh !important;
+  }
+  height: 5vh;
+  width: 100px !important;
+  color: #015eff;
+  border-color: #015eff;
+  border-radius: 7px;
+  font-weight: bolder;
+}
+.confirm {
+  font-weight: bolder;
+  position: relative;
+  border-radius: 7px;
+  right: 0px;
+  height: 5vh;
+  width: 100px !important;
+}
+.text {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 50px;
+  padding-bottom: 60px;
+}
